@@ -38,3 +38,17 @@ It helps in **early detection and awareness** by allowing users to enter biomedi
 
 
 ## 📂 Project Structure
+📦 Parkinsons-Predictor
+├── app.py # Flask web app
+├── train_model.py # Script to train ML model
+├── parkinsons.csv # Dataset
+├── model.pkl # Trained ML model (generated after training)
+├── scaler.pkl # Scaler for preprocessing (generated after training)
+├── requirements.txt # Project dependencies
+├── templates/ # HTML templates
+│ ├── index.html
+│ └── predict.html
+├── static/ # Static assets
+│ ├── style.css
+│ └── parkison.jpg
+└── README.md
